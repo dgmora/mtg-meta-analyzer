@@ -495,6 +495,8 @@
 							playerRank={d.playerRank}
 							tournamentName={d.tournamentName}
 							tournamentDate={d.tournamentDate}
+							tournamentUrl={d.tournamentUrl}
+							tournamentPlayerCount={d.tournamentPlayerCount}
 							matchRecord={d.matchRecord}
 						/>
 					{/each}

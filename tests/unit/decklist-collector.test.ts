@@ -95,6 +95,8 @@ describe("collectArchetypeDecklists", () => {
 			matchRecord: "0-0-0",
 			tournamentName: "Pro Tour",
 			tournamentDate: "2026-01-01",
+			tournamentUrl: "https://melee.gg/Tournament/View/42",
+			tournamentPlayerCount: 1,
 			tournamentId: "melee-42",
 		});
 	});

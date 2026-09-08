@@ -10,6 +10,8 @@ export interface EnrichedDecklist {
 	matchRecord: string;
 	tournamentName: string;
 	tournamentDate: string;
+	tournamentUrl: string;
+	tournamentPlayerCount: number;
 	tournamentId: string;
 }
 
@@ -35,6 +37,8 @@ export function collectArchetypeDecklists(
 						matchRecord: player.matchRecord,
 						tournamentName: t.meta.name,
 						tournamentDate: t.meta.date,
+						tournamentUrl: t.meta.url,
+						tournamentPlayerCount: t.meta.playerCount,
 						tournamentId: t.meta.id,
 					});
 				}

@@ -64,12 +64,17 @@ describe("DecklistView component", () => {
 				decklist: sampleDecklist,
 				tournamentName: "Premodern Championship",
 				tournamentDate: "2026-09-08",
+				tournamentUrl: "https://melee.gg/Tournament/View/42",
+				tournamentPlayerCount: 32,
 				playerRank: 3,
 				matchRecord: "6-1-0",
 			},
 		});
 		expect(container.querySelector(".meta")?.textContent).toContain(
-			"Premodern Championship",
+			"Premodern Championship, 32 players",
+		);
+		expect(container.querySelector(".tournament a")?.getAttribute("href")).toBe(
+			"https://melee.gg/Tournament/View/42",
 		);
 		expect(container.querySelector(".rank")?.textContent).toBe("#3 (6-1-0)");
 		expect(container.querySelector("time")?.textContent).toBe("2026-09-08");

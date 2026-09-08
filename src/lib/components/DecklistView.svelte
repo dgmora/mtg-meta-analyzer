@@ -10,6 +10,8 @@
 		playerRank,
 		tournamentName = '',
 		tournamentDate = '',
+		tournamentUrl = '',
+		tournamentPlayerCount,
 		matchRecord = '',
 		classificationResult,
 	}: {
@@ -19,6 +21,8 @@
 		playerRank?: number;
 		tournamentName?: string;
 		tournamentDate?: string;
+		tournamentUrl?: string;
+		tournamentPlayerCount?: number;
 		matchRecord?: string;
 		classificationResult?: ClassificationResult;
 	} = $props();
@@ -42,7 +46,11 @@
 <div class="decklist">
 	{#if playerName || archetype || playerRank != null || tournamentName || tournamentDate || matchRecord}
 		<div class="meta">
-			{#if tournamentName}<span class="tournament">{tournamentName}</span>{/if}
+			{#if tournamentName}
+				<span class="tournament">
+					<a href={tournamentUrl || undefined} target="_blank" rel="noopener">{tournamentName}{tournamentPlayerCount != null ? `, ${tournamentPlayerCount} players` : ''}</a>
+				</span>
+			{/if}
 			{#if tournamentDate}<time datetime={tournamentDate}>{tournamentDate.slice(0, 10)}</time>{/if}
 			{#if playerRank != null}
 				<span class="rank">#{playerRank}{matchRecord ? ` (${matchRecord})` : ''}</span>
@@ -153,7 +161,6 @@
 		font-weight: 600;
 		overflow-wrap: anywhere;
 	}
-
 
 	.rank {
 		font-size: 0.75rem;
