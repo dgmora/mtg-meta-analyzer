@@ -58,11 +58,12 @@ describe("DecklistView component", () => {
 		expect(container.textContent).toContain("Mono-Red Aggro");
 	});
 
-	it("shows tournament, position and match record", () => {
+	it("shows tournament, date and finish", () => {
 		const { container } = render(DecklistView, {
 			props: {
 				decklist: sampleDecklist,
 				tournamentName: "Premodern Championship",
+				tournamentDate: "2026-09-08",
 				playerRank: 3,
 				matchRecord: "6-1-0",
 			},
@@ -70,8 +71,11 @@ describe("DecklistView component", () => {
 		expect(container.querySelector(".meta")?.textContent).toContain(
 			"Premodern Championship",
 		);
-		expect(container.querySelector(".rank")?.textContent).toBe("#3");
-		expect(container.querySelector(".record")?.textContent).toBe("Record: 6-1-0");
+		expect(container.querySelector(".rank")?.textContent).toBe("#3 (6-1-0)");
+		expect(container.querySelector("time")?.textContent).toBe("2026-09-08");
+		expect(container.querySelector("time")?.getAttribute("datetime")).toBe(
+			"2026-09-08",
+		);
 	});
 
 	it("hides metadata section when no player/archetype", () => {

@@ -94,6 +94,7 @@ describe("collectArchetypeDecklists", () => {
 			playerRank: 5,
 			matchRecord: "0-0-0",
 			tournamentName: "Pro Tour",
+			tournamentDate: "2026-01-01",
 			tournamentId: "melee-42",
 		});
 	});

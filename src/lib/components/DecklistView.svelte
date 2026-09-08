@@ -9,6 +9,7 @@
 		archetype = '',
 		playerRank,
 		tournamentName = '',
+		tournamentDate = '',
 		matchRecord = '',
 		classificationResult,
 	}: {
@@ -17,6 +18,7 @@
 		archetype?: string;
 		playerRank?: number;
 		tournamentName?: string;
+		tournamentDate?: string;
 		matchRecord?: string;
 		classificationResult?: ClassificationResult;
 	} = $props();
@@ -38,11 +40,15 @@
 </script>
 
 <div class="decklist">
-	{#if playerName || archetype || playerRank != null || tournamentName || matchRecord}
+	{#if playerName || archetype || playerRank != null || tournamentName || tournamentDate || matchRecord}
 		<div class="meta">
 			{#if tournamentName}<span class="tournament">{tournamentName}</span>{/if}
-			{#if playerRank != null}<span class="rank">#{playerRank}</span>{/if}
-			{#if matchRecord}<span class="record">Record: {matchRecord}</span>{/if}
+			{#if tournamentDate}<time datetime={tournamentDate}>{tournamentDate.slice(0, 10)}</time>{/if}
+			{#if playerRank != null}
+				<span class="rank">#{playerRank}{matchRecord ? ` (${matchRecord})` : ''}</span>
+			{:else if matchRecord}
+				<span class="rank">{matchRecord}</span>
+			{/if}
 			{#if playerName}<span class="player">{playerName}</span>{/if}
 			{#if archetype}<span class="archetype">{archetype}</span>{/if}
 			{#if classificationResult?.method === 'signature'}
@@ -148,9 +154,6 @@
 		overflow-wrap: anywhere;
 	}
 
-	.record {
-		font-variant-numeric: tabular-nums;
-	}
 
 	.rank {
 		font-size: 0.75rem;

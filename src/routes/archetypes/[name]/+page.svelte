@@ -494,6 +494,7 @@
 							archetype={archetypeName}
 							playerRank={d.playerRank}
 							tournamentName={d.tournamentName}
+							tournamentDate={d.tournamentDate}
 							matchRecord={d.matchRecord}
 						/>
 					{/each}
