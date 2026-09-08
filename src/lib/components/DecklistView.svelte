@@ -45,19 +45,19 @@
 
 <div class="decklist">
 	{#if playerName || archetype || playerRank != null || tournamentName || tournamentDate || matchRecord}
-		<div class="meta">
+		<div class="meta" class:with-tournament={!!tournamentName}>
 			{#if tournamentName}
 				<span class="tournament">
 					<a href={tournamentUrl || undefined} target="_blank" rel="noopener">{tournamentName}{tournamentPlayerCount != null ? `, ${tournamentPlayerCount} players` : ''}</a>
 				</span>
 			{/if}
 			{#if tournamentDate}<time datetime={tournamentDate}>{tournamentDate.slice(0, 10)}</time>{/if}
+			{#if playerName}<span class="player">{playerName}</span>{/if}
 			{#if playerRank != null}
 				<span class="rank">#{playerRank}{matchRecord ? ` (${matchRecord})` : ''}</span>
 			{:else if matchRecord}
 				<span class="rank">{matchRecord}</span>
 			{/if}
-			{#if playerName}<span class="player">{playerName}</span>{/if}
 			{#if archetype}<span class="archetype">{archetype}</span>{/if}
 			{#if classificationResult?.method === 'signature'}
 				<span class="method-badge method-rules" title="Classified by signature cards">By rules</span>
@@ -156,10 +156,45 @@
 		flex-wrap: wrap;
 	}
 
+	.meta.with-tournament {
+		gap: 0.35rem 0.65rem;
+		padding-bottom: 0.85rem;
+		margin-bottom: 0.85rem;
+		border-bottom: 1px solid var(--color-border);
+	}
+
 	.tournament {
 		flex-basis: 100%;
 		font-weight: 600;
+		line-height: 1.45;
 		overflow-wrap: anywhere;
+	}
+
+	.tournament a {
+		color: var(--color-accent);
+		text-decoration: none;
+	}
+
+	.tournament a:hover {
+		text-decoration: underline;
+	}
+
+	time {
+		flex-basis: 100%;
+		font-size: 0.75rem;
+		color: var(--color-text-muted);
+		margin-bottom: 0.4rem;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.with-tournament .player {
+		flex: 1;
+		min-width: 0;
+		overflow-wrap: anywhere;
+	}
+
+	.with-tournament .rank {
+		white-space: nowrap;
 	}
 
 	.rank {

@@ -491,7 +491,6 @@
 						<DecklistView
 							decklist={d.decklist}
 							playerName={d.playerName}
-							archetype={archetypeName}
 							playerRank={d.playerRank}
 							tournamentName={d.tournamentName}
 							tournamentDate={d.tournamentDate}
