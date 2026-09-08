@@ -8,12 +8,16 @@
 		playerName = '',
 		archetype = '',
 		playerRank,
+		tournamentName = '',
+		matchRecord = '',
 		classificationResult,
 	}: {
 		decklist: DecklistInfo;
 		playerName?: string;
 		archetype?: string;
 		playerRank?: number;
+		tournamentName?: string;
+		matchRecord?: string;
 		classificationResult?: ClassificationResult;
 	} = $props();
 
@@ -34,9 +38,11 @@
 </script>
 
 <div class="decklist">
-	{#if playerName || archetype || playerRank != null}
+	{#if playerName || archetype || playerRank != null || tournamentName || matchRecord}
 		<div class="meta">
+			{#if tournamentName}<span class="tournament">{tournamentName}</span>{/if}
 			{#if playerRank != null}<span class="rank">#{playerRank}</span>{/if}
+			{#if matchRecord}<span class="record">Record: {matchRecord}</span>{/if}
 			{#if playerName}<span class="player">{playerName}</span>{/if}
 			{#if archetype}<span class="archetype">{archetype}</span>{/if}
 			{#if classificationResult?.method === 'signature'}
@@ -134,6 +140,16 @@
 		gap: 0.5rem;
 		align-items: center;
 		flex-wrap: wrap;
+	}
+
+	.tournament {
+		flex-basis: 100%;
+		font-weight: 600;
+		overflow-wrap: anywhere;
+	}
+
+	.record {
+		font-variant-numeric: tabular-nums;
 	}
 
 	.rank {

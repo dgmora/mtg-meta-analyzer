@@ -493,6 +493,8 @@
 							playerName={d.playerName}
 							archetype={archetypeName}
 							playerRank={d.playerRank}
+							tournamentName={d.tournamentName}
+							matchRecord={d.matchRecord}
 						/>
 					{/each}
 				</div>

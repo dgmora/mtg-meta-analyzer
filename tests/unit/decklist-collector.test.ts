@@ -92,6 +92,7 @@ describe("collectArchetypeDecklists", () => {
 		const result = collectArchetypeDecklists([t], archetypes, "Aggro");
 		expect(result[0]).toMatchObject({
 			playerRank: 5,
+			matchRecord: "0-0-0",
 			tournamentName: "Pro Tour",
 			tournamentId: "melee-42",
 		});

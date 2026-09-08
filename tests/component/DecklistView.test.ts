@@ -58,6 +58,22 @@ describe("DecklistView component", () => {
 		expect(container.textContent).toContain("Mono-Red Aggro");
 	});
 
+	it("shows tournament, position and match record", () => {
+		const { container } = render(DecklistView, {
+			props: {
+				decklist: sampleDecklist,
+				tournamentName: "Premodern Championship",
+				playerRank: 3,
+				matchRecord: "6-1-0",
+			},
+		});
+		expect(container.querySelector(".meta")?.textContent).toContain(
+			"Premodern Championship",
+		);
+		expect(container.querySelector(".rank")?.textContent).toBe("#3");
+		expect(container.querySelector(".record")?.textContent).toBe("Record: 6-1-0");
+	});
+
 	it("hides metadata section when no player/archetype", () => {
 		const { container } = render(DecklistView, {
 			props: { decklist: sampleDecklist },

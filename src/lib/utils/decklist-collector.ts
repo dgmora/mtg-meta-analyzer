@@ -7,14 +7,11 @@ export interface EnrichedDecklist {
 	playerName: string;
 	playerId: string;
 	playerRank: number;
+	matchRecord: string;
 	tournamentName: string;
 	tournamentId: string;
 }
 
-/**
- * Collect all decklists for a given archetype across tournaments,
- * enriched with player and tournament metadata.
- */
 export function collectArchetypeDecklists(
 	tournaments: TournamentData[],
 	playerArchetypes: Map<string, string>,
@@ -34,6 +31,7 @@ export function collectArchetypeDecklists(
 						playerName: player.name,
 						playerId,
 						playerRank: player.rank,
+						matchRecord: player.matchRecord,
 						tournamentName: t.meta.name,
 						tournamentId: t.meta.id,
 					});
