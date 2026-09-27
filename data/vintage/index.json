@@ -1,5 +1,21 @@
 [
   {
+    "id": "videre-12854923",
+    "name": "Vintage Challenge 32",
+    "cleanName": "Challenge 32",
+    "date": "2026-09-26",
+    "format": "Vintage",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12854923",
+    "playerCount": 65,
+    "roundCount": 10,
+    "matchCount": 181,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-09/videre-12854923.json"
+  },
+  {
     "id": "videre-12854903",
     "name": "Vintage Challenge 32",
     "cleanName": "Challenge 32",

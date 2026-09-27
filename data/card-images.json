@@ -23404,6 +23404,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/a/e/aee806ce-effa-4244-9659-43246e944d80.jpg?1783947158",
 		"artist": "Pete Venters"
 	},
+	"Lake-town Lookout": {
+		"normal": "https://cards.scryfall.io/normal/front/1/7/178c4cf6-6b11-40e4-9673-c560d6818a6b.jpg?1785496946",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/1/7/178c4cf6-6b11-40e4-9673-c560d6818a6b.jpg?1785496946",
+		"artist": "Irina Nordsol"
+	},
 	"Lakeside Shack": {
 		"normal": "https://cards.scryfall.io/normal/front/a/9/a9367acd-393a-4966-ba60-af2ecd4e7596.jpg?1783909428",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/a/9/a9367acd-393a-4966-ba60-af2ecd4e7596.jpg?1783909428",
@@ -26628,6 +26633,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/9/d/9d6976c2-f2a0-4993-a428-9469ada5ca37.jpg?1783942054",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/9/d/9d6976c2-f2a0-4993-a428-9469ada5ca37.jpg?1783942054",
 		"artist": "Alex Horley-Orlandelli"
+	},
+	"Mirko Vosk, Mind Drinker": {
+		"normal": "https://cards.scryfall.io/normal/front/d/3/d37cdd3e-4303-4391-aff4-4a543e65a836.jpg?1783940025",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/d/3/d37cdd3e-4303-4391-aff4-4a543e65a836.jpg?1783940025",
+		"artist": "Chase Stone"
 	},
 	"Mirkwood Bats": {
 		"normal": "https://cards.scryfall.io/normal/front/8/8/882747f9-b4fe-42be-8fe9-f871cd0779bd.jpg?1783916165",
