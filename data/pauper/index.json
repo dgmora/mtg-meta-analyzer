@@ -1,5 +1,21 @@
 [
   {
+    "id": "melee-473171",
+    "name": "Central Liga Gaucha de Pauper 2026 - Etapa 8",
+    "cleanName": "Central Liga Gaucha de 2026 - Etapa 8",
+    "date": "2026-09-27",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/473171",
+    "playerCount": 74,
+    "roundCount": 7,
+    "matchCount": 258,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-473171.json"
+  },
+  {
     "id": "videre-12854910",
     "name": "Pauper Challenge 32",
     "cleanName": "Challenge 32",
@@ -30,6 +46,38 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12854905.json"
+  },
+  {
+    "id": "melee-470147",
+    "name": "BRISTOL PAUPER LEAGUE: AUTUMN '26 - STAGE 5",
+    "cleanName": "BRISTOL LEAGUE: AUTUMN '26 - STAGE 5",
+    "date": "2026-09-24",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/470147",
+    "playerCount": 44,
+    "roundCount": 4,
+    "matchCount": 88,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-470147.json"
+  },
+  {
+    "id": "melee-452281",
+    "name": "LEG No.3 Copper Season",
+    "cleanName": "LEG No.3 Copper Season",
+    "date": "2026-09-23",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/452281",
+    "playerCount": 35,
+    "roundCount": 4,
+    "matchCount": 69,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-452281.json"
   },
   {
     "id": "videre-12854527",
@@ -80,6 +128,70 @@
     "path": "2026-09/videre-12854518.json"
   },
   {
+    "id": "melee-442848",
+    "name": "IPT PAUPER APOCALYPSE Domenica 20 settembre ore 10.00",
+    "cleanName": "IPT APOCALYPSE Domenica 20 settembre ore 10.00",
+    "date": "2026-09-20",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/442848",
+    "playerCount": 108,
+    "roundCount": 7,
+    "matchCount": 351,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-442848.json"
+  },
+  {
+    "id": "melee-456583",
+    "name": "CPC Qualifier Bellingham - September 2026",
+    "cleanName": "CPC Qualifier Bellingham - September 2026",
+    "date": "2026-09-20",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/456583",
+    "playerCount": 45,
+    "roundCount": 6,
+    "matchCount": 135,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-456583.json"
+  },
+  {
+    "id": "melee-447957",
+    "name": "C'mon! Katowice",
+    "cleanName": "C'mon! Katowice",
+    "date": "2026-09-19",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/447957",
+    "playerCount": 153,
+    "roundCount": 11,
+    "matchCount": 538,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-447957.json"
+  },
+  {
+    "id": "melee-441901",
+    "name": "WPC Summer Ed. 2026",
+    "cleanName": "WPC Summer Ed. 2026",
+    "date": "2026-09-19",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/441901",
+    "playerCount": 38,
+    "roundCount": 5,
+    "matchCount": 95,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-441901.json"
+  },
+  {
     "id": "videre-12854493",
     "name": "Pauper Challenge 32",
     "cleanName": "Challenge 32",
@@ -110,6 +222,22 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12854488.json"
+  },
+  {
+    "id": "melee-466782",
+    "name": "BRISTOL PAUPER LEAGUE: AUTUMN '26 - STAGE 4",
+    "cleanName": "BRISTOL LEAGUE: AUTUMN '26 - STAGE 4",
+    "date": "2026-09-17",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/466782",
+    "playerCount": 44,
+    "roundCount": 4,
+    "matchCount": 88,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-466782.json"
   },
   {
     "id": "videre-12854119",
@@ -144,6 +272,22 @@
     "path": "2026-09/videre-12854103.json"
   },
   {
+    "id": "melee-464141",
+    "name": "Lega Pauper Genova, Autumn Season Lunedi 14 Settembre Ore 20.30",
+    "cleanName": "Lega Genova, Autumn Season Lunedi 14 Settembre Ore 20.30",
+    "date": "2026-09-14",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/464141",
+    "playerCount": 33,
+    "roundCount": 4,
+    "matchCount": 65,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-464141.json"
+  },
+  {
     "id": "videre-12854094",
     "name": "Pauper Challenge 32",
     "cleanName": "Challenge 32",
@@ -158,6 +302,22 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12854094.json"
+  },
+  {
+    "id": "melee-431976",
+    "name": "Lega Pauper Lipsia Season 3 Stage 4",
+    "cleanName": "Lega Lipsia Season 3 Stage 4",
+    "date": "2026-09-12",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/431976",
+    "playerCount": 57,
+    "roundCount": 5,
+    "matchCount": 144,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-431976.json"
   },
   {
     "id": "videre-12854069",
@@ -192,6 +352,22 @@
     "path": "2026-09/videre-12854064.json"
   },
   {
+    "id": "melee-462728",
+    "name": "BRISTOL PAUPER LEAGUE: AUTUMN '26 - STAGE 3",
+    "cleanName": "BRISTOL LEAGUE: AUTUMN '26 - STAGE 3",
+    "date": "2026-09-10",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/462728",
+    "playerCount": 34,
+    "roundCount": 4,
+    "matchCount": 68,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-462728.json"
+  },
+  {
     "id": "videre-12853727",
     "name": "Pauper Challenge 32",
     "cleanName": "Challenge 32",
@@ -206,6 +382,22 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12853727.json"
+  },
+  {
+    "id": "melee-452280",
+    "name": "LEG No.2 Copper Season",
+    "cleanName": "LEG No.2 Copper Season",
+    "date": "2026-09-09",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/452280",
+    "playerCount": 32,
+    "roundCount": 4,
+    "matchCount": 64,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-452280.json"
   },
   {
     "id": "videre-12853710",
@@ -224,6 +416,22 @@
     "path": "2026-09/videre-12853710.json"
   },
   {
+    "id": "melee-460327",
+    "name": "Lega Pauper Genova, Autumn Season Lunedi 7 Settembre Ore 20.30",
+    "cleanName": "Lega Genova, Autumn Season Lunedi 7 Settembre Ore 20.30",
+    "date": "2026-09-07",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/460327",
+    "playerCount": 33,
+    "roundCount": 4,
+    "matchCount": 67,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-460327.json"
+  },
+  {
     "id": "videre-12853701",
     "name": "Pauper Challenge 32",
     "cleanName": "Challenge 32",
@@ -238,6 +446,22 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12853701.json"
+  },
+  {
+    "id": "melee-451422",
+    "name": "3° Crudo Stracchino e Pauper",
+    "cleanName": "3° Crudo Stracchino",
+    "date": "2026-09-06",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/451422",
+    "playerCount": 70,
+    "roundCount": 7,
+    "matchCount": 212,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-451422.json"
   },
   {
     "id": "videre-12853684",
@@ -270,6 +494,22 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12853671.json"
+  },
+  {
+    "id": "melee-459998",
+    "name": "BRISTOL PAUPER LEAGUE: AUTUMN '26 - STAGE 2",
+    "cleanName": "BRISTOL LEAGUE: AUTUMN '26 - STAGE 2",
+    "date": "2026-09-03",
+    "format": "Pauper",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/459998",
+    "playerCount": 39,
+    "roundCount": 4,
+    "matchCount": 79,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-459998.json"
   },
   {
     "id": "melee-451659",

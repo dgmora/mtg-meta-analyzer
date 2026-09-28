@@ -144,6 +144,22 @@
     "path": "2026-09/videre-12854093.json"
   },
   {
+    "id": "melee-445589",
+    "name": "$1K Legacy - SCG CON Baltimore - Sunday - 9:00 am",
+    "cleanName": "$1K - SCG CON Baltimore",
+    "date": "2026-09-13",
+    "format": "Legacy",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/445589",
+    "playerCount": 55,
+    "roundCount": 9,
+    "matchCount": 146,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-445589.json"
+  },
+  {
     "id": "videre-12854078",
     "name": "Legacy Challenge 32",
     "cleanName": "Challenge 32",
@@ -174,6 +190,38 @@
     "tabletop": false,
     "pairings": true,
     "path": "2026-09/videre-12854088.json"
+  },
+  {
+    "id": "melee-445380",
+    "name": "$1K Legacy - SCG CON Baltimore - Saturday - 9:00 am",
+    "cleanName": "$1K - SCG CON Baltimore",
+    "date": "2026-09-12",
+    "format": "Legacy",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/445380",
+    "playerCount": 43,
+    "roundCount": 7,
+    "matchCount": 118,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-445380.json"
+  },
+  {
+    "id": "melee-445440",
+    "name": "$1K Legacy - SCG CON Baltimore - Friday - 10:30 am",
+    "cleanName": "$1K - SCG CON Baltimore",
+    "date": "2026-09-11",
+    "format": "Legacy",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/445440",
+    "playerCount": 41,
+    "roundCount": 9,
+    "matchCount": 114,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-445440.json"
   },
   {
     "id": "videre-12854055",

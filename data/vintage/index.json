@@ -16,6 +16,22 @@
     "path": "2026-09/videre-12854923.json"
   },
   {
+    "id": "melee-470067",
+    "name": "Basser Charity Bonanza",
+    "cleanName": "Basser Charity Bonanza",
+    "date": "2026-09-26",
+    "format": "Vintage",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/470067",
+    "playerCount": 63,
+    "roundCount": 9,
+    "matchCount": 190,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-09/melee-470067.json"
+  },
+  {
     "id": "videre-12854903",
     "name": "Vintage Challenge 32",
     "cleanName": "Challenge 32",
