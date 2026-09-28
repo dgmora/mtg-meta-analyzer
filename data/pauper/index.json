@@ -16,6 +16,22 @@
     "path": "2026-09/melee-473171.json"
   },
   {
+    "id": "videre-12854935",
+    "name": "Pauper Challenge 32",
+    "cleanName": "Challenge 32",
+    "date": "2026-09-27",
+    "format": "Pauper",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12854935",
+    "playerCount": 67,
+    "roundCount": 10,
+    "matchCount": 189,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-09/videre-12854935.json"
+  },
+  {
     "id": "videre-12854910",
     "name": "Pauper Challenge 32",
     "cleanName": "Challenge 32",
