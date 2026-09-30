@@ -1,5 +1,37 @@
 [
   {
+    "id": "videre-12855448",
+    "name": "Modern Challenge 64",
+    "cleanName": "Challenge 64",
+    "date": "2026-09-29",
+    "format": "Modern",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12855448",
+    "playerCount": 72,
+    "roundCount": 10,
+    "matchCount": 200,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-09/videre-12855448.json"
+  },
+  {
+    "id": "videre-12855450",
+    "name": "Modern Challenge 32",
+    "cleanName": "Challenge 32",
+    "date": "2026-09-29",
+    "format": "Modern",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12855450",
+    "playerCount": 65,
+    "roundCount": 10,
+    "matchCount": 177,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-09/videre-12855450.json"
+  },
+  {
     "id": "videre-12854949",
     "name": "Modern Challenge 32",
     "cleanName": "Challenge 32",

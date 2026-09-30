@@ -1,5 +1,21 @@
 [
   {
+    "id": "videre-12854952",
+    "name": "Legacy Challenge 32",
+    "cleanName": "Challenge 32",
+    "date": "2026-09-29",
+    "format": "Legacy",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12854952",
+    "playerCount": 49,
+    "roundCount": 9,
+    "matchCount": 130,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-09/videre-12854952.json"
+  },
+  {
     "id": "videre-12854934",
     "name": "Legacy Challenge 32",
     "cleanName": "Challenge 32",

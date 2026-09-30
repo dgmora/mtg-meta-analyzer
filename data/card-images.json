@@ -17084,6 +17084,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/b/f/bffaad78-97ff-431f-bfb0-e96c7558f974.jpg?1783940831",
 		"artist": "Kev Walker"
 	},
+	"Germinate Recruits": {
+		"normal": "https://cards.scryfall.io/normal/front/d/c/dcb1b131-fee7-455f-a6e7-b94471288ed7.jpg?1790135930",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/d/c/dcb1b131-fee7-455f-a6e7-b94471288ed7.jpg?1790135930",
+		"artist": "Camille Alquier"
+	},
 	"Germination Practicum": {
 		"normal": "https://cards.scryfall.io/normal/front/9/a/9a1d12c2-6eff-482d-abc2-859009e33da4.jpg?1783903538",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/9/a/9a1d12c2-6eff-482d-abc2-859009e33da4.jpg?1783903538",
@@ -20118,6 +20123,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/2/0/20a85b6d-fb2b-4359-9dd6-081d8722e580.jpg?1783911301",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/2/0/20a85b6d-fb2b-4359-9dd6-081d8722e580.jpg?1783911301",
 		"artist": "Michele Giorgi"
+	},
+	"Hexhaven Invigorator": {
+		"normal": "https://cards.scryfall.io/normal/front/9/a/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg?1788878191",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/9/a/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg?1788878191",
+		"artist": "Olivier Bernard"
 	},
 	"Hexing Squelcher": {
 		"normal": "https://cards.scryfall.io/normal/front/6/7/674960ce-ff33-4d5e-a24a-a4582b2e9809.jpg?1783904442",
@@ -35469,6 +35479,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/8/6/86572747-8faa-4242-b059-07d11e6be1cd.jpg?1783929355",
 		"artist": "Campbell White"
 	},
+	"Roiling Canopy": {
+		"normal": "https://cards.scryfall.io/normal/front/d/b/db61361b-bd12-453e-abc2-bbe09b66e3d9.jpg?1789514074",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/d/b/db61361b-bd12-453e-abc2-bbe09b66e3d9.jpg?1789514074",
+		"artist": "Titus Lunter"
+	},
 	"Roiling Dragonstorm": {
 		"normal": "https://cards.scryfall.io/normal/front/3/c/3c725add-1cca-4003-8f37-c68f8f8fcc33.jpg?1783907255",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/3/c/3c725add-1cca-4003-8f37-c68f8f8fcc33.jpg?1783907255",
@@ -37278,6 +37293,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/6/1/61da9522-3844-4753-8122-d11ae2780a4c.jpg?1783910775",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/6/1/61da9522-3844-4753-8122-d11ae2780a4c.jpg?1783910775",
 		"artist": "Andrea Sipl"
+	},
+	"Seasoned Cryomancer": {
+		"normal": "https://cards.scryfall.io/normal/front/1/b/1b36b3d1-2e58-4036-9d91-5875ad667346.jpg?1790135797",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/1/b/1b36b3d1-2e58-4036-9d91-5875ad667346.jpg?1790135797",
+		"artist": "Chris Rallis"
 	},
 	"Seasoned Dungeoneer": {
 		"normal": "https://cards.scryfall.io/normal/front/6/4/648d9da3-5790-4d64-8b52-83141d2faf36.jpg?1783922542",
@@ -44669,6 +44689,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/f/6/f6dcd1ca-4943-46e4-bb5d-c14949e21e23.jpg?1783916242",
 		"artist": "Kieran Yanner"
 	},
+	"Theorist's Sanctum": {
+		"normal": "https://cards.scryfall.io/normal/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg?1788878256",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg?1788878256",
+		"artist": "Adam Paquette"
+	},
 	"Thermal Glider": {
 		"normal": "https://cards.scryfall.io/normal/front/f/d/fd909c26-930d-4af0-b19a-c899847338b4.jpg?1783945972",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/f/d/fd909c26-930d-4af0-b19a-c899847338b4.jpg?1783945972",
@@ -46718,6 +46743,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/2/9/2999e3b1-6510-42b2-9429-28c07a64a44f.jpg?1783907291",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/2/9/2999e3b1-6510-42b2-9429-28c07a64a44f.jpg?1783907291",
 		"artist": "Tuan Duong Chu"
+	},
+	"Twinned Vision": {
+		"normal": "https://cards.scryfall.io/normal/front/5/5/55f85984-0137-4899-8993-bbc8c4794d33.jpg?1789556940",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/5/5/55f85984-0137-4899-8993-bbc8c4794d33.jpg?1789556940",
+		"artist": "Andreas Zafiratos"
 	},
 	"Twinning Staff": {
 		"normal": "https://cards.scryfall.io/normal/front/e/7/e7971306-700e-4677-bf52-83e4f9ac04c1.jpg?1783931206",
@@ -49318,6 +49348,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/7/f/7fc820fb-eec2-4873-a272-68e8379470fc.jpg?1783907815",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/7/f/7fc820fb-eec2-4873-a272-68e8379470fc.jpg?1783907815",
 		"artist": "CatDirty"
+	},
+	"Way of the Pyromancer": {
+		"normal": "https://cards.scryfall.io/normal/front/c/1/c1a00020-7c14-4503-a057-5763704bb83e.jpg?1788878311",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/c/1/c1a00020-7c14-4503-a057-5763704bb83e.jpg?1788878311",
+		"artist": "Andrey Kuzinskiy"
 	},
 	"Wayfarer's Bauble": {
 		"normal": "https://cards.scryfall.io/normal/front/3/d/3db8fc1d-69fa-4a88-8f12-11fd614aac01.jpg?1783944371",
