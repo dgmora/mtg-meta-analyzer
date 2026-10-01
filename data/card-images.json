@@ -1849,6 +1849,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/e/d/edd69ea7-aab6-4f30-98f4-640cb0a6046c.jpg?1783942439",
 		"artist": "Matt Stewart"
 	},
+	"Archive Arbiter": {
+		"normal": "https://cards.scryfall.io/normal/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg?1789614867",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg?1789614867",
+		"artist": "Valera Lutfullina"
+	},
 	"Archive Trap": {
 		"normal": "https://cards.scryfall.io/normal/front/6/7/67bb2ca9-32b8-442d-b6a0-d624a87f5af8.jpg?1783942166",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/6/7/67bb2ca9-32b8-442d-b6a0-d624a87f5af8.jpg?1783942166",
@@ -11993,6 +11998,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/1/9/1997e6a0-9e66-486d-921d-d64137c3221d.jpg?1783937799",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/1/9/1997e6a0-9e66-486d-921d-d64137c3221d.jpg?1783937799",
 		"artist": "Dave Kendall"
+	},
+	"Dry Spell": {
+		"normal": "https://cards.scryfall.io/normal/front/5/4/547c10ea-8ace-4496-8b99-61863c0cec1b.jpg?1783947291",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/5/4/547c10ea-8ace-4496-8b99-61863c0cec1b.jpg?1783947291",
+		"artist": "Brian Snõddy"
 	},
 	"Dryad Arbor": {
 		"normal": "https://cards.scryfall.io/normal/front/8/c/8cee476d-42e1-4997-87af-73e18f542167.jpg?1783943089",
@@ -40564,6 +40574,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/0/6/064a1fc2-6983-4ebf-a0bc-524bc77682c2.jpg?1783906332",
 		"artist": "KOHEI YAMADA"
 	},
+	"Sphere of Annihilation": {
+		"normal": "https://cards.scryfall.io/normal/front/3/d/3d2315a9-584b-4c59-af43-dd38bcb6c322.jpg?1783926488",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/3/d/3d2315a9-584b-4c59-af43-dd38bcb6c322.jpg?1783926488",
+		"artist": "Jason Felix"
+	},
 	"Sphere of Grace": {
 		"normal": "https://cards.scryfall.io/normal/front/d/5/d5b49d82-6d11-4294-a367-0b5b45c05e44.jpg?1783945272",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/d/5/d5b49d82-6d11-4294-a367-0b5b45c05e44.jpg?1783945272",
@@ -41133,6 +41148,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/2/9/29421dd2-70a7-4623-afe0-ca4cb415ec87.jpg?1783944321",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/2/9/29421dd2-70a7-4623-afe0-ca4cb415ec87.jpg?1783944321",
 		"artist": "Matt Cavotta"
+	},
+	"Squire's Devotion": {
+		"normal": "https://cards.scryfall.io/normal/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1783935330",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/9/1/91de07da-564d-42f3-987d-a2321c3216bc.jpg?1783935330",
+		"artist": "Winona Nelson"
 	},
 	"Squirming Emergence": {
 		"normal": "https://cards.scryfall.io/normal/front/8/e/8ee16629-f9be-4cdb-bf52-1d640781ee00.jpg?1783913729",
@@ -46413,6 +46433,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/4/c/4c5a41ab-1840-4abb-a8bb-f0b1e7d1b450.jpg?1783944402",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/4/c/4c5a41ab-1840-4abb-a8bb-f0b1e7d1b450.jpg?1783944402",
 		"artist": "Mark A. Nelson"
+	},
+	"Trip Noose": {
+		"normal": "https://cards.scryfall.io/normal/front/1/b/1b2b3dd8-cedb-4577-8897-967952dd3c13.jpg?1783942709",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/1/b/1b2b3dd8-cedb-4577-8897-967952dd3c13.jpg?1783942709",
+		"artist": "Randy Gallegos"
 	},
 	"Triplicate Titan": {
 		"normal": "https://cards.scryfall.io/normal/front/8/c/8c610087-d56a-4b38-b4af-bd7ef350f741.jpg?1783927448",
