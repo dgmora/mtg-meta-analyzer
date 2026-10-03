@@ -1,5 +1,21 @@
 [
   {
+    "id": "videre-12855474",
+    "name": "Modern Challenge 64",
+    "cleanName": "Challenge 64",
+    "date": "2026-10-02",
+    "format": "Modern",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12855474",
+    "playerCount": 72,
+    "roundCount": 10,
+    "matchCount": 206,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-10/videre-12855474.json"
+  },
+  {
     "id": "videre-12855459",
     "name": "Modern Challenge 64",
     "cleanName": "Challenge 64",

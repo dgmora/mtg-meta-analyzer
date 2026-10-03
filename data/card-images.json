@@ -419,6 +419,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/c/5/c5178301-f766-48d3-af07-6bd6f822c725.jpg?1783938325",
 		"artist": "Lake Hurwitz"
 	},
+	"Aerid Konstrari": {
+		"normal": "https://cards.scryfall.io/normal/front/f/1/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg?1788878199",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/f/1/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg?1788878199",
+		"artist": "Chris Rahn"
+	},
 	"Aerith Gainsborough": {
 		"normal": "https://cards.scryfall.io/normal/front/f/0/f020aa2f-cc1b-4bb4-bf05-4050ea935d66.jpg?1783906657",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/f/0/f020aa2f-cc1b-4bb4-bf05-4050ea935d66.jpg?1783906657",
@@ -9543,6 +9548,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/b/a/bab93474-2f98-49a1-874f-b794bf81bd0c.jpg?1783904079",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/b/a/bab93474-2f98-49a1-874f-b794bf81bd0c.jpg?1783904079",
 		"artist": "Thomas Chamberlain-Keen"
+	},
+	"Dark Matter Manipulator": {
+		"normal": "https://cards.scryfall.io/normal/front/5/f/5fd4f195-ee14-4aff-91b0-7ed5b552fd35.jpg?1790135992",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/5/f/5fd4f195-ee14-4aff-91b0-7ed5b552fd35.jpg?1790135992",
+		"artist": "Kevin Glint"
 	},
 	"Dark Petition": {
 		"normal": "https://cards.scryfall.io/normal/front/e/9/e9df9c5e-7087-42b2-9001-c89d40a66c68.jpg?1783938344",
@@ -19829,6 +19839,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/1/4/14f8f638-b7fc-4e38-8623-ce7d2ebc82e6.jpg?1783940954",
 		"artist": "Anthony Palumbo"
 	},
+	"Heartwood Crafter": {
+		"normal": "https://cards.scryfall.io/normal/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg?1789127630",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg?1789127630",
+		"artist": "Anastasia Ovchinnikova"
+	},
 	"Heated Argument": {
 		"normal": "https://cards.scryfall.io/normal/front/0/0/0038d212-3d95-4f98-8c2e-7b2404d0ced7.jpg?1783903668",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/0/0/0038d212-3d95-4f98-8c2e-7b2404d0ced7.jpg?1783903668",
@@ -24867,6 +24882,11 @@
 	"Liliana the Faultless": {
 		"normal": "https://cards.scryfall.io/normal/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg?1788329194",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg?1788329194",
+		"artist": "Marta Nael"
+	},
+	"Liliana the Repentant": {
+		"normal": "https://cards.scryfall.io/normal/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg?1788329273",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg?1788329273",
 		"artist": "Marta Nael"
 	},
 	"Liliana, Dreadhorde General": {
@@ -32863,6 +32883,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/a/3/a33a4cb4-1b57-47ca-8e5e-58ff46a6e0ce.jpg?1783902913",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/a/3/a33a4cb4-1b57-47ca-8e5e-58ff46a6e0ce.jpg?1783902913",
 		"artist": "Bachzim"
+	},
+	"Puppet Crafting": {
+		"normal": "https://cards.scryfall.io/normal/front/6/b/6b8789a6-3b63-4198-af5f-c2f2f49fafd9.jpg?1789470736",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/6/b/6b8789a6-3b63-4198-af5f-c2f2f49fafd9.jpg?1789470736",
+		"artist": "Anna Pavleeva"
 	},
 	"PuPu UFO": {
 		"normal": "https://cards.scryfall.io/normal/front/9/8/989b52f7-d8a5-4488-9a5d-f14a1d48686d.jpg?1783906554",
@@ -43819,6 +43844,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/3/7/376c8b7d-1c90-47e1-bd01-e4c67f3fc4fc.jpg?1783903653",
 		"artist": "Lie Setiawan"
 	},
+	"Tenured Tethermage": {
+		"normal": "https://cards.scryfall.io/normal/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg?1789385792",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg?1789385792",
+		"artist": "Javier Charro"
+	},
 	"Terastodon": {
 		"normal": "https://cards.scryfall.io/normal/front/e/6/e66d2f62-8a4a-4e8d-93e1-5dc802684106.jpg?1783942042",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/e/6/e66d2f62-8a4a-4e8d-93e1-5dc802684106.jpg?1783942042",
@@ -43828,6 +43858,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/3/1/314e94ad-0e12-48bb-aae1-2c842943114a.jpg?1783926810",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/3/1/314e94ad-0e12-48bb-aae1-2c842943114a.jpg?1783926810",
 		"artist": "Lucas Graciano"
+	},
+	"Terminal Criticism": {
+		"normal": "https://cards.scryfall.io/normal/front/0/1/01eb1fc4-14bc-479e-91fb-83eae7e3d203.jpg?1790136376",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/0/1/01eb1fc4-14bc-479e-91fb-83eae7e3d203.jpg?1790136376",
+		"artist": "Justin Hernandez & Alexis Hernandez"
 	},
 	"Terminal Velocity": {
 		"normal": "https://cards.scryfall.io/normal/front/1/d/1d18dc06-16f0-4a3b-8d52-dbf4aa2c393d.jpg?1783905945",
