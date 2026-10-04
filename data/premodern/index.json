@@ -1,5 +1,21 @@
 [
   {
+    "id": "melee-463805",
+    "name": "Duress Crew Presents: New England Premodern Autumn Regional",
+    "cleanName": "Duress Crew Presents: New England Autumn Regional",
+    "date": "2026-10-03",
+    "format": "Premodern",
+    "source": "melee",
+    "url": "https://melee.gg/Tournament/View/463805",
+    "playerCount": 76,
+    "roundCount": 10,
+    "matchCount": 222,
+    "importance": "other",
+    "tabletop": true,
+    "pairings": true,
+    "path": "2026-10/melee-463805.json"
+  },
+  {
     "id": "videre-12855462",
     "name": "Premodern Challenge 32",
     "cleanName": "Challenge 32",
