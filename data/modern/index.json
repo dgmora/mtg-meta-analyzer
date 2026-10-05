@@ -1,5 +1,37 @@
 [
   {
+    "id": "videre-12855490",
+    "name": "Modern Challenge 64",
+    "cleanName": "Challenge 64",
+    "date": "2026-10-04",
+    "format": "Modern",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12855490",
+    "playerCount": 83,
+    "roundCount": 10,
+    "matchCount": 256,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-10/videre-12855490.json"
+  },
+  {
+    "id": "videre-12855498",
+    "name": "Modern Challenge 64",
+    "cleanName": "Challenge 64",
+    "date": "2026-10-04",
+    "format": "Modern",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12855498",
+    "playerCount": 78,
+    "roundCount": 10,
+    "matchCount": 230,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-10/videre-12855498.json"
+  },
+  {
     "id": "videre-12855444",
     "name": "Modern RC Super Qualifier",
     "cleanName": "RC Super Qualifier",

@@ -14544,6 +14544,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/d/1/d1fcfeb4-1818-4e08-be4c-27b8a9dc12e6.jpg?1783933144",
 		"artist": "Colin Boyer"
 	},
+	"Faerie Trickery": {
+		"normal": "https://cards.scryfall.io/normal/front/d/e/defb9f0b-195e-4aeb-92c1-8f827ad6724b.jpg?1783942904",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/d/e/defb9f0b-195e-4aeb-92c1-8f827ad6724b.jpg?1783942904",
+		"artist": "Terese Nielsen"
+	},
 	"Faerie Vandal": {
 		"normal": "https://cards.scryfall.io/normal/front/7/8/789c5c2b-3e51-4f6c-ac76-d276facf716f.jpg?1783932658",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/7/8/789c5c2b-3e51-4f6c-ac76-d276facf716f.jpg?1783932658",
@@ -17963,6 +17968,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/a/3/a335f396-1004-4fee-842a-a35ff6ba17f2.jpg?1783903658",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/a/3/a335f396-1004-4fee-842a-a35ff6ba17f2.jpg?1783903658",
 		"artist": "Camille Alquier"
+	},
+	"Glorious End": {
+		"normal": "https://cards.scryfall.io/normal/front/2/9/2922b976-7beb-4c68-b39e-1b66d5c6f65e.jpg?1783936489",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/2/9/2922b976-7beb-4c68-b39e-1b66d5c6f65e.jpg?1783936489",
+		"artist": "Raymond Swanland"
 	},
 	"Glorious Gale": {
 		"normal": "https://cards.scryfall.io/normal/front/6/e/6e1057de-5710-415c-9a51-1d8bd86021a3.jpg?1783916317",
@@ -33503,6 +33513,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/2/d/2d5819ca-165d-4f4c-9500-3ac206994880.jpg?1783902925",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/2/d/2d5819ca-165d-4f4c-9500-3ac206994880.jpg?1783902925",
 		"artist": "Michael MacRae"
+	},
+	"Quicksmith Genius": {
+		"normal": "https://cards.scryfall.io/normal/front/c/9/c9f1dc85-3cda-45d6-8d65-3cb93854bb16.jpg?1783937191",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/c/9/c9f1dc85-3cda-45d6-8d65-3cb93854bb16.jpg?1783937191",
+		"artist": "David Gaillet"
 	},
 	"Quiet Speculation": {
 		"normal": "https://cards.scryfall.io/normal/front/7/1/71a314fa-293b-486f-95d8-267d340e4d8e.jpg?1783945127",
