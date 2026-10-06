@@ -11689,6 +11689,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/9/6/9666987a-5267-46d3-9b00-31baa92a9cbc.jpg?1783926480",
 		"artist": "Campbell White"
 	},
+	"Dragon's Prey": {
+		"normal": "https://cards.scryfall.io/normal/front/7/a/7a6004ff-4180-4332-8b51-960f8c7521d9.jpg?1783907377",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/7/a/7a6004ff-4180-4332-8b51-960f8c7521d9.jpg?1783907377",
+		"artist": "Johann Bodin"
+	},
 	"Dragon's Rage Channeler": {
 		"normal": "https://cards.scryfall.io/normal/front/4/c/4ced112a-e775-4f97-97b3-74877e9dce12.jpg?1783926848",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/4/c/4ced112a-e775-4f97-97b3-74877e9dce12.jpg?1783926848",
@@ -14814,6 +14819,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/a/1/a19d5bdd-7f45-4ff1-bd1a-ac4e87572bcb.jpg?1783937194",
 		"artist": "Chris Rallis"
 	},
+	"Fatehold Charm": {
+		"normal": "https://cards.scryfall.io/normal/front/c/f/cfc54011-647e-4428-bcdb-59400e1da49d.jpg?1789127637",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/c/f/cfc54011-647e-4428-bcdb-59400e1da49d.jpg?1789127637",
+		"artist": "Rovina Cai"
+	},
 	"Fatestitcher": {
 		"normal": "https://cards.scryfall.io/normal/front/7/e/7e4becff-8280-4e29-a370-bf82fb6734d5.jpg?1783942575",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/7/e/7e4becff-8280-4e29-a370-bf82fb6734d5.jpg?1783942575",
@@ -16999,6 +17009,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/c/a/ca6f13a2-9243-4ce9-9f71-bed74355b781.jpg?1783942863",
 		"artist": "Aleksi Briclot"
 	},
+	"Garruk, Curse Breaker": {
+		"normal": "https://cards.scryfall.io/normal/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg?1788329370",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg?1788329370",
+		"artist": "Victor Adame Minguez"
+	},
 	"Garruk's Companion": {
 		"normal": "https://cards.scryfall.io/normal/front/8/6/863c9a10-d83f-415b-adf2-2d0f870410b2.jpg?1783941798",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/8/6/863c9a10-d83f-415b-adf2-2d0f870410b2.jpg?1783941798",
@@ -17528,6 +17543,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/6/e/6e2524fb-ec90-4f8e-b851-f78034edef3f.jpg?1783936539",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/6/e/6e2524fb-ec90-4f8e-b851-f78034edef3f.jpg?1783936539",
 		"artist": "Daarken"
+	},
+	"Gideon's Memorial": {
+		"normal": "https://cards.scryfall.io/normal/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg?1789127685",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg?1789127685",
+		"artist": "Manuel Castañón"
 	},
 	"Gift of Granite": {
 		"normal": "https://cards.scryfall.io/normal/front/d/7/d7b5231b-aed9-4b88-aba5-43e57a705dc5.jpg?1783943129",
@@ -23914,6 +23934,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/6/f/6f035294-2787-4719-8520-227bf03e84e7.jpg?1783909453",
 		"artist": "Brian Valeza"
 	},
+	"Konstrari Charm": {
+		"normal": "https://cards.scryfall.io/normal/front/7/d/7d29dfa1-9582-47bc-8f42-62b611bdcc4e.jpg?1789127645",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/7/d/7d29dfa1-9582-47bc-8f42-62b611bdcc4e.jpg?1789127645",
+		"artist": "Matheus Graef"
+	},
 	"Kopala, Warden of Waves": {
 		"normal": "https://cards.scryfall.io/normal/front/d/f/dfa73033-3863-44a6-8287-f9cda949e58a.jpg?1783935671",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/d/f/dfa73033-3863-44a6-8287-f9cda949e58a.jpg?1783935671",
@@ -25743,6 +25768,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/e/5/e50b20e6-5853-405e-b2f5-3e302dc7103f.jpg?1783946049",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/e/5/e50b20e6-5853-405e-b2f5-3e302dc7103f.jpg?1783946049",
 		"artist": "Ron Spears"
+	},
+	"Loyal Tutor": {
+		"normal": "https://cards.scryfall.io/normal/front/4/9/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg?1788878096",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/4/9/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg?1788878096",
+		"artist": "Darren Tan"
 	},
 	"Loyal Warhound": {
 		"normal": "https://cards.scryfall.io/normal/front/f/4/f408c5e4-e18d-4e4d-959a-f41df4c3019c.jpg?1783926530",
@@ -28648,6 +28678,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/3/8/38bfa984-5fe9-44ad-b13f-3276951f9f10.jpg?1783946229",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/3/8/38bfa984-5fe9-44ad-b13f-3276951f9f10.jpg?1783946229",
 		"artist": "Scott M. Fischer"
+	},
+	"Multiply by Zero": {
+		"normal": "https://cards.scryfall.io/normal/front/9/0/90d684a4-9639-4792-8760-2011a7a85370.jpg?1789644823",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/9/0/90d684a4-9639-4792-8760-2011a7a85370.jpg?1789644823",
+		"artist": "Florian Herold"
 	},
 	"Multiversal Passage": {
 		"normal": "https://cards.scryfall.io/normal/front/2/1/21502958-a8e3-494a-9be9-bebbbb1dd9dc.jpg?1783905442",
@@ -34733,6 +34768,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/2/6/26a65d5b-d07e-4ff0-900a-30d509ce0f35.jpg?1783909029",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/2/6/26a65d5b-d07e-4ff0-900a-30d509ce0f35.jpg?1783909029",
 		"artist": "Monztre"
+	},
+	"Refute Destiny": {
+		"normal": "https://cards.scryfall.io/normal/front/2/c/2c588954-c6eb-4aae-a2fa-0651ccf2d90a.jpg?1789470778",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/2/c/2c588954-c6eb-4aae-a2fa-0651ccf2d90a.jpg?1789470778",
+		"artist": "Billy Christian"
 	},
 	"Regal Bunnicorn": {
 		"normal": "https://cards.scryfall.io/normal/front/e/4/e4c17d31-5f18-40f8-a7bc-c2cffbef3785.jpg?1783914898",
@@ -41068,6 +41108,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/7/a/7a2c0735-1816-489b-9793-89d1060d78f7.jpg?1783941363",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/7/a/7a2c0735-1816-489b-9793-89d1060d78f7.jpg?1783941363",
 		"artist": "Jana Schirmer & Johannes Voss"
+	},
+	"Sphinx of False Conclusions": {
+		"normal": "https://cards.scryfall.io/normal/front/a/6/a62e9d0c-a802-4a14-9627-d784d6694375.jpg?1790135978",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/a/6/a62e9d0c-a802-4a14-9627-d784d6694375.jpg?1790135978",
+		"artist": "Arif Wijaya"
 	},
 	"Sphinx of Forgotten Lore": {
 		"normal": "https://cards.scryfall.io/normal/front/9/5/9571a123-37b4-42fa-96ba-42580afb6d9d.jpg?1783909029",
@@ -50693,6 +50738,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/9/4/94dc35e4-a492-4019-afcd-cbef6f59a512.jpg?1783909662",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/9/4/94dc35e4-a492-4019-afcd-cbef6f59a512.jpg?1783909662",
 		"artist": "Andrey Kuzinskiy"
+	},
+	"Winter, Tormented Loner": {
+		"normal": "https://cards.scryfall.io/normal/front/9/6/9670f754-f41f-45ac-8e8b-025ad2c0f66b.jpg?1789127724",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/9/6/9670f754-f41f-45ac-8e8b-025ad2c0f66b.jpg?1789127724",
+		"artist": "Aurore Folny"
 	},
 	"Winter's Chill": {
 		"normal": "https://cards.scryfall.io/normal/front/a/7/a779aca7-ff2c-48d8-9484-6ad04b2c6bcb.jpg?1783947507",
