@@ -17014,6 +17014,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg?1788329370",
 		"artist": "Victor Adame Minguez"
 	},
+	"Garruk, Veiled Butcher": {
+		"normal": "https://cards.scryfall.io/normal/front/d/4/d48bfb8a-d135-45f3-be99-4694b4b9ab93.jpg?1788329269",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/d/4/d48bfb8a-d135-45f3-be99-4694b4b9ab93.jpg?1788329269",
+		"artist": "Victor Adame Minguez"
+	},
 	"Garruk's Companion": {
 		"normal": "https://cards.scryfall.io/normal/front/8/6/863c9a10-d83f-415b-adf2-2d0f870410b2.jpg?1783941798",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/8/6/863c9a10-d83f-415b-adf2-2d0f870410b2.jpg?1783941798",
@@ -49539,6 +49544,11 @@
 		"art_crop": "https://cards.scryfall.io/art_crop/front/0/e/0e2de47c-828e-4e09-996d-b4c360af2d2f.jpg?1783934222",
 		"artist": "Livia Prima"
 	},
+	"Vraska, the Cutting Glare": {
+		"normal": "https://cards.scryfall.io/normal/front/5/c/5c28b012-5efb-488f-a1c1-09e2dddfd6ee.jpg?1789127776",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/5/c/5c28b012-5efb-488f-a1c1-09e2dddfd6ee.jpg?1789127776",
+		"artist": "Kieran Yanner"
+	},
 	"Vraska's Fall": {
 		"normal": "https://cards.scryfall.io/normal/front/0/1/0173b7b4-2832-4943-ba45-8ba498d7a056.jpg?1783918037",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/0/1/0173b7b4-2832-4943-ba45-8ba498d7a056.jpg?1783918037",
@@ -49998,6 +50008,11 @@
 		"normal": "https://cards.scryfall.io/normal/front/7/f/7fc820fb-eec2-4873-a272-68e8379470fc.jpg?1783907815",
 		"art_crop": "https://cards.scryfall.io/art_crop/front/7/f/7fc820fb-eec2-4873-a272-68e8379470fc.jpg?1783907815",
 		"artist": "CatDirty"
+	},
+	"Way of the Mentor": {
+		"normal": "https://cards.scryfall.io/normal/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg?1789729554",
+		"art_crop": "https://cards.scryfall.io/art_crop/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg?1789729554",
+		"artist": "Danny Schwartz"
 	},
 	"Way of the Paradox": {
 		"normal": "https://cards.scryfall.io/normal/front/9/8/98dc5470-507a-4364-8480-42607255e56c.jpg?1789729606",

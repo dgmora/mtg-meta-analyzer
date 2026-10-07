@@ -1,5 +1,21 @@
 [
   {
+    "id": "videre-12855510",
+    "name": "Legacy Challenge 32",
+    "cleanName": "Challenge 32",
+    "date": "2026-10-06",
+    "format": "Legacy",
+    "source": "videre",
+    "url": "https://api.videreproject.com/events?event_id=12855510",
+    "playerCount": 48,
+    "roundCount": 9,
+    "matchCount": 132,
+    "importance": "competitive",
+    "tabletop": false,
+    "pairings": true,
+    "path": "2026-10/videre-12855510.json"
+  },
+  {
     "id": "videre-12855492",
     "name": "Legacy Challenge 32",
     "cleanName": "Challenge 32",
