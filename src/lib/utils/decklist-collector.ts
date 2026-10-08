@@ -19,6 +19,7 @@ export function collectArchetypeDecklists(
 	tournaments: TournamentData[],
 	playerArchetypes: Map<string, string>,
 	archetypeName: string,
+	tournamentNames: Map<string, string> = new Map(),
 ): EnrichedDecklist[] {
 	const result: EnrichedDecklist[] = [];
 
@@ -35,7 +36,7 @@ export function collectArchetypeDecklists(
 						playerId,
 						playerRank: player.rank,
 						matchRecord: player.matchRecord,
-						tournamentName: t.meta.name,
+						tournamentName: tournamentNames.get(t.meta.id) ?? t.meta.name,
 						tournamentDate: t.meta.date,
 						tournamentUrl: t.meta.url,
 						tournamentPlayerCount: t.meta.playerCount,

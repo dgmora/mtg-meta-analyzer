@@ -101,6 +101,19 @@ describe("collectArchetypeDecklists", () => {
 		});
 	});
 
+	it("uses the display name for known tournaments", () => {
+		const t = makeTournament({
+			name: "Pro Tour Raw Name",
+			players: { p1: makePlayer("Alice", ["d1"]) },
+			decklists: { d1: makeDecklist("p1") },
+		});
+		const archetypes = new Map([["melee-1:p1", "Aggro"]]);
+		const names = new Map([["melee-1", "Pro Tour"]]);
+
+		const result = collectArchetypeDecklists([t], archetypes, "Aggro", names);
+		expect(result[0].tournamentName).toBe("Pro Tour");
+	});
+
 	it("collects across multiple tournaments", () => {
 		const t1 = makeTournament({
 			id: 1,
