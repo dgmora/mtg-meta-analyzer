@@ -41,13 +41,20 @@
 	});
 
 	const mainboardGroups = $derived(
-		(['land', 'creature', undefined] as const)
-			.map((kind) =>
-				sortedMainboard.filter(
+		(
+			[
+				['Lands', 'land'],
+				['Creatures', 'creature'],
+				['Other cards', undefined],
+			] as const
+		)
+			.map(([label, kind]) => ({
+				label,
+				cards: sortedMainboard.filter(
 					(card) => lookupCardImage($cardImageIndex, card.cardName)?.kind === kind,
 				),
-			)
-			.filter((group) => group.length > 0),
+			}))
+			.filter((group) => group.cards.length > 0),
 	);
 
 	const mainboardCount = $derived(
@@ -59,19 +66,17 @@
 </script>
 
 <div class="decklist">
-	{#if playerName || archetype || playerRank != null || tournamentName || tournamentDate || matchRecord}
-		<div class="meta" class:with-tournament={!!tournamentName}>
+	{#if playerName || archetype || playerRank != null || tournamentName}
+		<div class="meta">
 			{#if tournamentName}
-				<span class="tournament">
-					<a href={tournamentUrl || undefined} target="_blank" rel="noopener">{tournamentName}{tournamentPlayerCount != null ? `, ${tournamentPlayerCount} players` : ''}</a>
-				</span>
+				<div class="tournament-row">
+					<span class="tournament"><a href={tournamentUrl} target="_blank" rel="noopener">{tournamentName}</a>{tournamentPlayerCount != null ? `, ${tournamentPlayerCount} players` : ''}</span>
+					{#if tournamentDate}<time class="date" datetime={tournamentDate}>{tournamentDate}</time>{/if}
+				</div>
 			{/if}
-			{#if tournamentDate}<time datetime={tournamentDate}>{tournamentDate.slice(0, 10)}</time>{/if}
 			{#if playerName}<span class="player">{playerName}</span>{/if}
 			{#if playerRank != null}
 				<span class="rank">#{playerRank}{matchRecord ? ` (${matchRecord})` : ''}</span>
-			{:else if matchRecord}
-				<span class="rank">{matchRecord}</span>
 			{/if}
 			{#if archetype}<span class="archetype">{archetype}</span>{/if}
 			{#if classificationResult?.method === 'signature'}
@@ -125,8 +130,8 @@
 	<section>
 		<h3>Mainboard <span class="count">({mainboardCount})</span></h3>
 		{#each mainboardGroups as group}
-			<ul>
-				{#each group as card}
+			<ul aria-label={group.label}>
+				{#each group.cards as card}
 					<li>
 						<span class="qty">{card.quantity}x</span>
 						<CardTooltip cardName={card.cardName}>
@@ -167,54 +172,40 @@
 
 	.meta {
 		margin-bottom: 0.75rem;
+		padding-bottom: 0.75rem;
+		border-bottom: 1px solid var(--color-border);
 		display: flex;
 		gap: 0.5rem;
 		align-items: center;
 		flex-wrap: wrap;
 	}
 
-	.meta.with-tournament {
-		gap: 0.35rem 0.65rem;
-		padding-bottom: 0.85rem;
-		margin-bottom: 0.85rem;
-		border-bottom: 1px solid var(--color-border);
+	.tournament-row {
+		flex-basis: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 0.5rem;
 	}
 
 	.tournament {
-		flex-basis: 100%;
-		font-weight: 600;
-		line-height: 1.45;
-		overflow-wrap: anywhere;
-	}
-
-	.tournament a {
-		color: var(--color-accent);
-		text-decoration: none;
-	}
-
-	.tournament a:hover {
-		text-decoration: underline;
-	}
-
-	time {
-		flex-basis: 100%;
-		font-size: 0.75rem;
-		color: var(--color-text-muted);
-		margin-bottom: 0.4rem;
-		font-variant-numeric: tabular-nums;
-	}
-
-	.with-tournament .player {
-		flex: 1;
 		min-width: 0;
 		overflow-wrap: anywhere;
 	}
 
-	.with-tournament .rank {
+	.tournament a {
+		font-weight: 600;
+	}
+
+	.date {
 		white-space: nowrap;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		color: var(--color-text-muted);
 	}
 
 	.rank {
+		white-space: nowrap;
 		font-size: 0.75rem;
 		font-weight: 600;
 		color: var(--color-text-muted);
@@ -225,7 +216,10 @@
 	}
 
 	.player {
+		flex: 1;
+		min-width: 0;
 		font-weight: 600;
+		overflow-wrap: anywhere;
 	}
 
 	.archetype {
@@ -293,7 +287,7 @@
 	}
 
 	ul + ul {
-		margin-top: 0.8rem;
+		margin-top: 0.75rem;
 	}
 
 	li {

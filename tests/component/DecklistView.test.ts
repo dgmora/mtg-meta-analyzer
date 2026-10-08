@@ -85,9 +85,9 @@ describe("DecklistView component", () => {
 		expect(container.querySelector(".meta")?.textContent).toContain(
 			"Premodern Championship, 32 players",
 		);
-		expect(container.querySelector(".tournament a")?.getAttribute("href")).toBe(
-			"https://melee.gg/Tournament/View/42",
-		);
+		const link = container.querySelector(".tournament a");
+		expect(link?.textContent).toBe("Premodern Championship");
+		expect(link?.getAttribute("href")).toBe("https://melee.gg/Tournament/View/42");
 		expect(container.querySelector(".rank")?.textContent).toBe("#3 (6-1-0)");
 		expect(container.querySelector("time")?.textContent).toBe("2026-09-08");
 		expect(container.querySelector("time")?.getAttribute("datetime")).toBe(
@@ -146,9 +146,15 @@ describe("DecklistView component", () => {
 			props: { decklist: sampleDecklist },
 		});
 		const groups = [...container.querySelectorAll("section:first-of-type ul")].map(
-			(list) =>
-				[...list.querySelectorAll(".card-name")].map((name) => name.textContent),
+			(list) => [
+				list.getAttribute("aria-label"),
+				...[...list.querySelectorAll(".card-name")].map((name) => name.textContent),
+			],
 		);
-		expect(groups).toEqual([["Mountain"], ["Goblin Guide"], ["Lightning Bolt"]]);
+		expect(groups).toEqual([
+			["Lands", "Mountain"],
+			["Creatures", "Goblin Guide"],
+			["Other cards", "Lightning Bolt"],
+		]);
 	});
 });
