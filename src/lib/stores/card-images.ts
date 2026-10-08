@@ -16,6 +16,8 @@ export interface CardImageEntry {
 	/** Absent for the rare cards whose Scryfall record has no art crop. */
 	art_crop?: string;
 	artist: string;
+	/** Absent for every other card type. */
+	kind?: "land" | "creature";
 }
 
 /** Front-face card name → image entry; null until the index is fetched. */

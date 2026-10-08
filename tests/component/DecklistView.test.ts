@@ -1,11 +1,23 @@
 // @vitest-environment jsdom
 
 import { cleanup, render } from "@testing-library/svelte";
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import DecklistView from "../../src/lib/components/DecklistView.svelte";
+import { cardImageIndex } from "../../src/lib/stores/card-images";
 import type { DecklistInfo } from "../../src/lib/types/decklist";
 
-afterEach(() => cleanup());
+beforeEach(() => {
+	vi.stubGlobal(
+		"fetch",
+		vi.fn(() => new Promise(() => {})),
+	);
+});
+
+afterEach(() => {
+	cleanup();
+	vi.unstubAllGlobals();
+	cardImageIndex.set(null);
+});
 
 const sampleDecklist: DecklistInfo = {
 	playerId: "p1",
@@ -121,5 +133,22 @@ describe("DecklistView component", () => {
 		});
 		const triggers = container.querySelectorAll(".card-tooltip-trigger");
 		expect(triggers.length).toBe(5); // 3 mainboard + 2 sideboard
+	});
+
+	it("splits the mainboard into lands, creatures and other cards", () => {
+		const image = { normal: "https://example.test/normal.jpg", artist: "" };
+		cardImageIndex.set({
+			Mountain: { ...image, kind: "land" },
+			"Goblin Guide": { ...image, kind: "creature" },
+			"Lightning Bolt": image,
+		});
+		const { container } = render(DecklistView, {
+			props: { decklist: sampleDecklist },
+		});
+		const groups = [...container.querySelectorAll("section:first-of-type ul")].map(
+			(list) =>
+				[...list.querySelectorAll(".card-name")].map((name) => name.textContent),
+		);
+		expect(groups).toEqual([["Mountain"], ["Goblin Guide"], ["Lightning Bolt"]]);
 	});
 });

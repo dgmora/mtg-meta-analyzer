@@ -2,6 +2,7 @@
 	import type { DecklistInfo } from '../types/decklist';
 	import type { ClassificationResult } from '../algorithms/archetype-classifier';
 	import CardTooltip from './CardTooltip.svelte';
+	import { cardImageIndex, ensureCardImagesLoaded, lookupCardImage } from '../stores/card-images';
 
 	let {
 		decklist,
@@ -34,6 +35,20 @@
 	const sortedCompanion = $derived(sortByName(decklist.companion ?? []));
 	const sortedMainboard = $derived(sortByName(decklist.mainboard));
 	const sortedSideboard = $derived(sortByName(decklist.sideboard));
+
+	$effect(() => {
+		void ensureCardImagesLoaded();
+	});
+
+	const mainboardGroups = $derived(
+		(['land', 'creature', undefined] as const)
+			.map((kind) =>
+				sortedMainboard.filter(
+					(card) => lookupCardImage($cardImageIndex, card.cardName)?.kind === kind,
+				),
+			)
+			.filter((group) => group.length > 0),
+	);
 
 	const mainboardCount = $derived(
 		decklist.mainboard.reduce((sum, c) => sum + c.quantity, 0),
@@ -109,16 +124,18 @@
 
 	<section>
 		<h3>Mainboard <span class="count">({mainboardCount})</span></h3>
-		<ul>
-			{#each sortedMainboard as card}
-				<li>
-					<span class="qty">{card.quantity}x</span>
-					<CardTooltip cardName={card.cardName}>
-						<span class="card-name">{card.cardName}</span>
-					</CardTooltip>
-				</li>
-			{/each}
-		</ul>
+		{#each mainboardGroups as group}
+			<ul>
+				{#each group as card}
+					<li>
+						<span class="qty">{card.quantity}x</span>
+						<CardTooltip cardName={card.cardName}>
+							<span class="card-name">{card.cardName}</span>
+						</CardTooltip>
+					</li>
+				{/each}
+			</ul>
+		{/each}
 	</section>
 
 	{#if decklist.sideboard.length > 0}
@@ -273,6 +290,10 @@
 		list-style: none;
 		padding: 0;
 		margin: 0;
+	}
+
+	ul + ul {
+		margin-top: 0.5rem;
 	}
 
 	li {
